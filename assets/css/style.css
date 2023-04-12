@@ -36,7 +36,7 @@
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  /* height: 90px; */
   background: #ececec;
   color: #606060;
   border-radius: 8px;
@@ -47,8 +47,8 @@
 
 /* Information about the timeline */
 .info {
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex; 
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -59,7 +59,7 @@
   /* color: #221639; */
   color: #404040;
   position: relative;
-  height: 5px;
+  height: 1px;
 }
 
 
@@ -75,21 +75,27 @@
     left: -38px;
     border: 3px solid orangered;
   }
+/* 
+  .title .cardbullet ul {
+    position: relative;
+    top: 5px;
+  } */
 
   .logoCMU{
     background: url(/assets/img/cmu.png);
     margin:-10px;
-    /* margin-top: 4px; */
-    width: 70px;
-    height: calc(100% + 20px);
+    /* margin-top: 50%; */
+    width: 65px;
+    /* height: 100px; */
     opacity: 90%;
     background-size: cover;
   }
   .logoSNU{
     background: url(/assets/img/SNU.png);
+    /* margin-top: 50px; */
     margin: -10px;
-    width: 70px;
-    height: calc(100% + 20px);
+    width: 80px;
+    /* height: 100px; */
     opacity: 90%;
     background-size: cover;
   }
